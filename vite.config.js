@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// /api calls are forwarded to the Spring Boot server, so no CORS setup is needed in dev.
 export default defineConfig({
+  base: '/project-frontend/',
   plugins: [react()],
   server: {
     port: 5173,

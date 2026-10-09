@@ -7,10 +7,10 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <OwnerProvider>
         <App />
       </OwnerProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
